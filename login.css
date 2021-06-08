@@ -1,0 +1,21 @@
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.log-text {
+    text-align: center;
+}
+.inp-pass, .inp-name {
+    padding: 10px 150px 10px 10px;
+    margin-bottom: 30px;
+}
+label {
+    text-align: center;
+}
+.text-name {
+    text-align: center;
+    padding-right: 225px;
+}
+.log-button {
+    padding: 10px 126px 10px 126px;
+}
