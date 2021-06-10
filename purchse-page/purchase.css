@@ -1,0 +1,30 @@
+ul {
+    text-align: center;
+    list-style: none;
+}
+.purchase-button {
+    background-color: white;
+    border: solid 1px;
+    width: 160px;
+    height: 40px;
+}
+.items {
+    width:600px;
+    height:100px;
+    margin:0 auto;
+    border:solid 1px;
+}
+.item-detail {
+    /* display: inline-block; */
+    float:left;
+    width: 150px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.total-price {
+    text-align: center;
+    margin-left:200px;
+    font-size: 30px;
+}
