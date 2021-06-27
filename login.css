@@ -211,7 +211,8 @@ label {
 。footer{
     width: 1300px;
     height: 190px;
-    position: relative;
+    position: absolute;
+    bottom: 0;
 }
 
 .footerlist{
