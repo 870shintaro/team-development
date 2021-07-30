@@ -37,15 +37,40 @@
                 <a href="https://www.beams.co.jp/cart/cart.aspx"><img src="shopping-cart_icon_1477-300x300.png" alt="カートマーク" class=cartimg ></a>
             </div>
         </div> 
+   <form　class="inqury">
     <h1>問い合わせ</h1>
-    <div class="user">
-        <p><label>ユーザーID</label><input type="text"  name="userID" placeholder="" required></p>
-        <p><label>パスワード</label><input type="password" name="pass" id="pass" required></p>
-        <p><label>パスワード(確認)</label><input type="password" name="pass2" id="pass2" required></p>
-        <p><label>氏名(姓)</label><input type="text" name="name" size="20" maxlength="8"></p>
-        <p><label>氏名(名)</label><input type="text" name="name" size="20" maxlength="8"></p>
-        <p><label>郵便番号</label><input type="text" name="postnumber" size="20" maxlength="8"></p>
+    <table>
+        <tr>
+            <th class="hissu"><label>件名</label></th>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <th class="ninni"><label>ユーザーID
+            </label></th>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <th class="ninni"><label>メールアドレス</label></th>
+            <td><input type="text" class="smallinput"></td>
+        </tr>
+        <tr>
+            <th class="ninni"><label>お名前</label></th>
+            <td><input type="text" class="smallinput"></td>
+        </tr>
+        <tr>
+            <th class="ninni"><label>電話番号</label></th>
+            <td><input type="text" class="smallinput"></td>
+        </tr>
+        <tr>
+            <th class="hissu"><label>内容</label></th>
+            <td><textarea></textarea></td>
+        </tr>
+    </table>
+    <div class="buttonwrap">
+        <input type="button" value="戻る">
+        <input type="submit" value="送信">
     </div>
+</form>
     <footer class="footer">
         <ul class=footerlist>
             <li>会社概要</li>

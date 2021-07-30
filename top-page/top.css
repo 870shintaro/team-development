@@ -122,25 +122,20 @@
 .logoimg {
 	width: 30%;
     padding-left: 100px;
-    
 }
 
-.header-right{
-
+.headerright{
+   
+    
 }
 
 .search_container{
     box-sizing: border-box;
     width: 310px;
-    margin-left: 70px;
+    margin-left: 50px;
     margin-top: 50px;
-    float: left;
   }
 
-.logos {
-    margin:30px;
-    display: block;
-}
   .search_container input[type="text"]{
     border: 1px solid #999;
     padding: 3px 5px;
@@ -173,24 +168,24 @@
     width: 12%;
     float: right;
     bottom: 200px;
-    margin: 40px 20px 0px 0px;
 }
 
 .cartimg{
     width: 10%;
     float: right;
-    margin-top: 40px;
+    
 }
 
-.totalprice {
-    font-size: 35px;
-    margin-left: 650px;
+.top{
+    display: block;
+    margin-left: auto;
+    margin-right: auto
 }
-.footer{
+
+。footer{
     width: 1300px;
     height: 190px;
-    position: absolute;
-    bottom: 0;
+    position: relative;
 }
 
 .footerlist{
@@ -200,21 +195,4 @@
     text-align: center;
     position: absolute;
     bottom: 30px;
-}
-
-.form {
-    list-style: none;
-    margin: 0 auto;
-}
-.form-content {
-    margin-right: 10px;
-    float: left;
-}
-table, h1{
-    text-align: center;
-    margin: 0 auto;
-}
-.buttonwrap {
-    text-align: center;
-    margin-left: 180px;
 }
